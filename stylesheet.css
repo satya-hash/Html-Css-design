@@ -1,0 +1,60 @@
+body{
+    background: #C4FCEF;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+    display: flex;
+    background-color: transparent;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 35px;
+    border-radius: 10px;
+    height: 500px;
+    width: 900px;
+    color: rgba(255, 255, 255, 0.753);
+}
+h1{
+    text-transform: uppercase;
+}
+p{
+    line-height: 4vh;
+    padding: 10px;
+
+}
+button{
+    text-transform: capitalize;
+    padding: 10px;
+    width: 60%;
+    border-radius: 20px;
+    outline: none;
+    border: 3px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+.card1,.card3,.card2{
+    width: 300px;
+}
+.card1{
+    background-color: orange;
+    border-radius: 10px 0 0 10px;
+    padding: 35px;
+}
+.card2{
+    background-color: #4E8397;
+    padding: 35px;
+}
+.card3{
+    background-color: #4B4453;
+    padding: 35px;
+    border-radius: 0 10px 10px 0;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
